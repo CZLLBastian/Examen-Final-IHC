@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #db6e11;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.showcase {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #b7bb9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%2388ba82' fill-opacity='0.69' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.portada{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.portada h1{
+    position:absolute;
+    top: 25%;
+    left: 5%;
+    down: 5%;
+    font-family: Nunito;
+    font-size: 3vw;
+    text-align:center;
+}
+
+.portada p{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    font-family: Mulish;
+    font-size: 1.35vw;
+    text-align: center;
+}
+
+.portada a{
+    display: block;
+    background-color: #f65151;
+    border-radius: 40px;
+    width: 15%;
+    height: 9%;
+    color: #000000;
+    font-size: 2.3vw;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    padding-top: 1%;
+}
+.portada a:hover{
+
+    background-color: #ffffff;
+}
+.contenedor-services{
+    width: 100%;
+
+}
+
+
+
+.contenedor-services li{
+    width: 25vw;
+    padding: 6vh ;
+    display: inline-table;
+    text-align: center;
+    background-color: #c47777;
+    height: 30vh;
+    margin-left: 9vw;
+    margin-right: 48px;
+    margin-top: 10px;
+    color: black;
+}
+.contenedor-services li p {
+    margin-top: 10px;
+    text-align-last: initial;
+    font-family: Mulish;
+    font-size: 1.8vw;
+
+
+}
+
+.contenedor-services li h2{
+    margin-top: 20px;
+    text-align-last: initial;
+    font-family: Nunito;
+    font-size: 1.8vw;
+
+}
+
+
+.contenedor-services li:hover{
+    background-color: #d2c877;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(43, 61, 180, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #ffffff;
+
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    background-color: #b9dba8;
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+    color: #ffffff;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+
+.nav-brand {
+    width: 100px;
+}
+
+
+/* Navigation */
+.nav-main {
+    width: 72%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 60px;
+}
+
+/* Navbar Left */
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+.contenido1{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    front-size: 17px;
+    background-color: white;
+}
+.contenido1 h1{
+    width: 72%;
+    margin: 50px;
+    text-align: justify;
+}
+
+.tmedio{
+    width: 72%;
+    margin: auto;
+}
+#boton1{
+    width: 10%;
+    margin-top: 5%;
+    background-color: #0f5132;
+}
+.parrafo{
+    width: 85%;
+    margin: 50px;
+    text-align: justify;
+}
+
+/*Responsive*/
+@media screen and (max-width: 700px){
+    .contenido1{
+        display: block;
+        margin-bottom:2vh;
+    }
+    .imagenFondo{
+        display: block;
+        margin-bottom:2vh;
+    }
+    .contenedor-contact{
+        display: block;
+        margin-bottom:2vh;
+    }
+    .nav-brand{
+        display: block;
+        margin-bottom:2vh;
+    }
+    .container{
+        display: block;
+        margin-bottom:2vh;
+    }
+    #boton1{
+        width: auto;
+        margin-left: 35%;
+    }
+    .nav-brand1{
+        width: 100%;
+        display: block;
+        margin-bottom:2vh;
+    }
+    #texto{
+        width: auto;
+        margin-left: -20%;
+        font-size: 90%;
+        padding: 10%;
+    }
+}
+
+/* Suscripcion*/
+
+.contenedor-contact{
+    display: block;
+    height: 10vw;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-contact form{
+    width: 60vw;
+    margin: auto;
+    background: #c0e7af;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.contenedor-contact form h2{
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.contenedor-contact form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    color: Black;
+    background-color: #fdfdeb;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+.contenedor-contact form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton{
+    background: #67936a;
+    color: Black;
+    width: 200px;
+}
+#boton:hover{
+    background: #3f9249;
+    cursor: pointer;
+}
+
+
+.titulo{
+    width: 72%;
+    margin: auto;
+}
